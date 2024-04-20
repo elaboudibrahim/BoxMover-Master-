@@ -1,0 +1,37 @@
+[2.340s] Invoking command in '/home/brahim/Desktop/boxMover/src/controle_robot': PYTHONPATH=/home/brahim/Desktop/boxMover/build/controle_robot/prefix_override:/home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controle_robot build --build-base /home/brahim/Desktop/boxMover/build/controle_robot/build install --record /home/brahim/Desktop/boxMover/build/controle_robot/install.log --install-scripts $base/lib/controle_robot --single-version-externally-managed install_data
+[3.114s] running egg_info
+[3.115s] creating ../../build/controle_robot/controle_robot.egg-info
+[3.116s] writing ../../build/controle_robot/controle_robot.egg-info/PKG-INFO
+[3.118s] writing dependency_links to ../../build/controle_robot/controle_robot.egg-info/dependency_links.txt
+[3.118s] writing entry points to ../../build/controle_robot/controle_robot.egg-info/entry_points.txt
+[3.118s] writing requirements to ../../build/controle_robot/controle_robot.egg-info/requires.txt
+[3.118s] writing top-level names to ../../build/controle_robot/controle_robot.egg-info/top_level.txt
+[3.120s] writing manifest file '../../build/controle_robot/controle_robot.egg-info/SOURCES.txt'
+[3.214s] reading manifest file '../../build/controle_robot/controle_robot.egg-info/SOURCES.txt'
+[3.216s] writing manifest file '../../build/controle_robot/controle_robot.egg-info/SOURCES.txt'
+[3.218s] running build
+[3.219s] running build_py
+[3.220s] creating /home/brahim/Desktop/boxMover/build/controle_robot/build
+[3.222s] creating /home/brahim/Desktop/boxMover/build/controle_robot/build/lib
+[3.223s] creating /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot
+[3.224s] copying controle_robot/controleNode.py -> /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot
+[3.227s] copying controle_robot/__init__.py -> /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot
+[3.229s] running install
+[3.239s] running install_lib
+[3.275s] creating /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot
+[3.275s] copying /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot/controleNode.py -> /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot
+[3.275s] copying /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot/__init__.py -> /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot
+[3.276s] byte-compiling /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot/controleNode.py to controleNode.cpython-38.pyc
+[3.276s] byte-compiling /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot/__init__.py to __init__.cpython-38.pyc
+[3.276s] running install_data
+[3.276s] creating /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index
+[3.276s] creating /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index/resource_index
+[3.276s] creating /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index/resource_index/packages
+[3.277s] copying resource/controle_robot -> /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index/resource_index/packages
+[3.277s] copying package.xml -> /home/brahim/Desktop/boxMover/install/controle_robot/share/controle_robot
+[3.277s] running install_egg_info
+[3.277s] Copying ../../build/controle_robot/controle_robot.egg-info to /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot-0.0.0-py3.8.egg-info
+[3.277s] running install_scripts
+[3.479s] Installing control_node script to /home/brahim/Desktop/boxMover/install/controle_robot/lib/controle_robot
+[3.480s] writing list of installed files to '/home/brahim/Desktop/boxMover/build/controle_robot/install.log'
+[3.663s] Invoked command in '/home/brahim/Desktop/boxMover/src/controle_robot' returned '0': PYTHONPATH=/home/brahim/Desktop/boxMover/build/controle_robot/prefix_override:/home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controle_robot build --build-base /home/brahim/Desktop/boxMover/build/controle_robot/build install --record /home/brahim/Desktop/boxMover/build/controle_robot/install.log --install-scripts $base/lib/controle_robot --single-version-externally-managed install_data

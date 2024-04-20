@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/controle_robot/controle_robot.egg-info/PKG-INFO
+../../build/controle_robot/controle_robot.egg-info/SOURCES.txt
+../../build/controle_robot/controle_robot.egg-info/dependency_links.txt
+../../build/controle_robot/controle_robot.egg-info/entry_points.txt
+../../build/controle_robot/controle_robot.egg-info/requires.txt
+../../build/controle_robot/controle_robot.egg-info/top_level.txt
+../../build/controle_robot/controle_robot.egg-info/zip-safe
+controle_robot/__init__.py
+controle_robot/controleNode.py
+resource/controle_robot
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

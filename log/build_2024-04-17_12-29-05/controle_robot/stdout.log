@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/controle_robot/controle_robot.egg-info
+writing ../../build/controle_robot/controle_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/controle_robot/controle_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/controle_robot/controle_robot.egg-info/entry_points.txt
+writing requirements to ../../build/controle_robot/controle_robot.egg-info/requires.txt
+writing top-level names to ../../build/controle_robot/controle_robot.egg-info/top_level.txt
+writing manifest file '../../build/controle_robot/controle_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/controle_robot/controle_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/controle_robot/controle_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/brahim/Desktop/boxMover/build/controle_robot/build
+creating /home/brahim/Desktop/boxMover/build/controle_robot/build/lib
+creating /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot
+copying controle_robot/controleNode.py -> /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot
+copying controle_robot/__init__.py -> /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot
+running install
+running install_lib
+creating /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot
+copying /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot/controleNode.py -> /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot
+copying /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot/__init__.py -> /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot
+byte-compiling /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot/controleNode.py to controleNode.cpython-38.pyc
+byte-compiling /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index
+creating /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index/resource_index
+creating /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index/resource_index/packages
+copying resource/controle_robot -> /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/brahim/Desktop/boxMover/install/controle_robot/share/controle_robot
+running install_egg_info
+Copying ../../build/controle_robot/controle_robot.egg-info to /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot-0.0.0-py3.8.egg-info
+running install_scripts
+Installing control_node script to /home/brahim/Desktop/boxMover/install/controle_robot/lib/controle_robot
+writing list of installed files to '/home/brahim/Desktop/boxMover/build/controle_robot/install.log'

@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.007313] (controle_robot) JobQueued: {'identifier': 'controle_robot', 'dependencies': OrderedDict()}
+[0.007513] (controle_robot) JobStarted: {'identifier': 'controle_robot'}
+[0.103288] (-) TimerEvent: {}
+[0.281595] (-) TimerEvent: {}
+[0.382531] (-) TimerEvent: {}
+[0.523113] (-) TimerEvent: {}
+[0.698611] (-) TimerEvent: {}
+[0.799619] (-) TimerEvent: {}
+[0.914490] (-) TimerEvent: {}
+[1.020068] (-) TimerEvent: {}
+[1.485602] (-) TimerEvent: {}
+[1.589335] (-) TimerEvent: {}
+[1.839438] (-) TimerEvent: {}
+[1.941466] (-) TimerEvent: {}
+[2.043544] (-) TimerEvent: {}
+[2.145455] (-) TimerEvent: {}
+[2.254347] (-) TimerEvent: {}
+[2.339793] (controle_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controle_robot', 'build', '--build-base', '/home/brahim/Desktop/boxMover/build/controle_robot/build', 'install', '--record', '/home/brahim/Desktop/boxMover/build/controle_robot/install.log', '--install-scripts', '$base/lib/controle_robot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/brahim/Desktop/boxMover/src/controle_robot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'brahim', 'LC_TIME': 'ar_MA.UTF-8', 'SSH_AGENT_PID': '1323', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/brahim', 'OLDPWD': '/home/brahim/Desktop/boxMover/src/controle_robot', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_MA.UTF-8', 'MANAGERPID': '1178', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/brahim/Desktop/boxMover/src/controle_robot/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'brahim', 'JOURNAL_STREAM': '8:31828', '_': '/home/brahim/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'brahim', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/brahim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/brahim/.local/bin', 'SESSION_MANAGER': 'local/brahim:@/tmp/.ICE-unix/1371,unix/brahim:/tmp/.ICE-unix/1371', 'INVOCATION_ID': '65927f78683749eeb224bd0d7bb0da42', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_MA.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5a362737_8c75_4656_ac7c_b4a01e8b603b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_MA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/brahim/Desktop/boxMover/src/controle_robot/install/controle_robot:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_MA.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_MA.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_MA.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/brahim/Desktop/boxMover/build/controle_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/brahim/Desktop/boxMover/build/controle_robot/prefix_override:/home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages:/home/brahim/Desktop/boxMover/src/controle_robot/install/controle_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ar_MA.UTF-8', 'LC_PAPER': 'ar_MA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.355155] (-) TimerEvent: {}
+[2.464642] (-) TimerEvent: {}
+[2.584250] (-) TimerEvent: {}
+[2.685245] (-) TimerEvent: {}
+[2.792755] (-) TimerEvent: {}
+[2.940479] (-) TimerEvent: {}
+[3.043059] (-) TimerEvent: {}
+[3.121471] (controle_robot) StdoutLine: {'line': b'running egg_info\n'}
+[3.122516] (controle_robot) StdoutLine: {'line': b'creating ../../build/controle_robot/controle_robot.egg-info\n'}
+[3.123226] (controle_robot) StdoutLine: {'line': b'writing ../../build/controle_robot/controle_robot.egg-info/PKG-INFO\n'}
+[3.125023] (controle_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/controle_robot/controle_robot.egg-info/dependency_links.txt\n'}
+[3.125188] (controle_robot) StdoutLine: {'line': b'writing entry points to ../../build/controle_robot/controle_robot.egg-info/entry_points.txt\n'}
+[3.125273] (controle_robot) StdoutLine: {'line': b'writing requirements to ../../build/controle_robot/controle_robot.egg-info/requires.txt\n'}
+[3.125341] (controle_robot) StdoutLine: {'line': b'writing top-level names to ../../build/controle_robot/controle_robot.egg-info/top_level.txt\n'}
+[3.127163] (controle_robot) StdoutLine: {'line': b"writing manifest file '../../build/controle_robot/controle_robot.egg-info/SOURCES.txt'\n"}
+[3.143531] (-) TimerEvent: {}
+[3.220867] (controle_robot) StdoutLine: {'line': b"reading manifest file '../../build/controle_robot/controle_robot.egg-info/SOURCES.txt'\n"}
+[3.223133] (controle_robot) StdoutLine: {'line': b"writing manifest file '../../build/controle_robot/controle_robot.egg-info/SOURCES.txt'\n"}
+[3.225447] (controle_robot) StdoutLine: {'line': b'running build\n'}
+[3.226135] (controle_robot) StdoutLine: {'line': b'running build_py\n'}
+[3.226977] (controle_robot) StdoutLine: {'line': b'creating /home/brahim/Desktop/boxMover/build/controle_robot/build\n'}
+[3.229261] (controle_robot) StdoutLine: {'line': b'creating /home/brahim/Desktop/boxMover/build/controle_robot/build/lib\n'}
+[3.230473] (controle_robot) StdoutLine: {'line': b'creating /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot\n'}
+[3.231226] (controle_robot) StdoutLine: {'line': b'copying controle_robot/controleNode.py -> /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot\n'}
+[3.234464] (controle_robot) StdoutLine: {'line': b'copying controle_robot/__init__.py -> /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot\n'}
+[3.236654] (controle_robot) StdoutLine: {'line': b'running install\n'}
+[3.243991] (-) TimerEvent: {}
+[3.245900] (controle_robot) StdoutLine: {'line': b'running install_lib\n'}
+[3.282311] (controle_robot) StdoutLine: {'line': b'creating /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot\n'}
+[3.282725] (controle_robot) StdoutLine: {'line': b'copying /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot/controleNode.py -> /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot\n'}
+[3.282874] (controle_robot) StdoutLine: {'line': b'copying /home/brahim/Desktop/boxMover/build/controle_robot/build/lib/controle_robot/__init__.py -> /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot\n'}
+[3.282992] (controle_robot) StdoutLine: {'line': b'byte-compiling /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot/controleNode.py to controleNode.cpython-38.pyc\n'}
+[3.283122] (controle_robot) StdoutLine: {'line': b'byte-compiling /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot/__init__.py to __init__.cpython-38.pyc\n'}
+[3.283271] (controle_robot) StdoutLine: {'line': b'running install_data\n'}
+[3.283471] (controle_robot) StdoutLine: {'line': b'creating /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index\n'}
+[3.283633] (controle_robot) StdoutLine: {'line': b'creating /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index/resource_index\n'}
+[3.283807] (controle_robot) StdoutLine: {'line': b'creating /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index/resource_index/packages\n'}
+[3.283976] (controle_robot) StdoutLine: {'line': b'copying resource/controle_robot -> /home/brahim/Desktop/boxMover/install/controle_robot/share/ament_index/resource_index/packages\n'}
+[3.284150] (controle_robot) StdoutLine: {'line': b'copying package.xml -> /home/brahim/Desktop/boxMover/install/controle_robot/share/controle_robot\n'}
+[3.284321] (controle_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.284523] (controle_robot) StdoutLine: {'line': b'Copying ../../build/controle_robot/controle_robot.egg-info to /home/brahim/Desktop/boxMover/install/controle_robot/lib/python3.8/site-packages/controle_robot-0.0.0-py3.8.egg-info\n'}
+[3.284746] (controle_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[3.375620] (-) TimerEvent: {}
+[3.478037] (-) TimerEvent: {}
+[3.486455] (controle_robot) StdoutLine: {'line': b'Installing control_node script to /home/brahim/Desktop/boxMover/install/controle_robot/lib/controle_robot\n'}
+[3.487591] (controle_robot) StdoutLine: {'line': b"writing list of installed files to '/home/brahim/Desktop/boxMover/build/controle_robot/install.log'\n"}
+[3.583895] (-) TimerEvent: {}
+[3.670270] (controle_robot) CommandEnded: {'returncode': 0}
+[3.701873] (-) TimerEvent: {}
+[3.716786] (controle_robot) JobEnded: {'identifier': 'controle_robot', 'rc': 0}
+[3.719171] (-) EventReactorShutdown: {}
