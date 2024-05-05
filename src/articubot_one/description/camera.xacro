@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
+
+     <!-- First, create the link and joint for the optical frame -->
+
+    <joint name="camera_optical_joint" type="fixed">
+        <parent link="chassis"/>
+       <!-- <origin xyz="0 0 0" rpy="-1.571 0 -1.571" />-->
+       <origin xyz="0.2 0 0.175" rpy="0 0 0"/>
+        <child link="camera_link" />
+    </joint>
+
+        
+    <link name="camera_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+
+    </link>
+
+
+    <!-- Add a gazebo tag for the ORIGINAL camera_link (but in the plugin we reference the optical frame so that ROS can orient things correctly) -->
+    <!-- Within the gazebo tag we have the sensor tag, and inside that there is (among other things) the camera tag with the camera parameters, 
+            and the plugin tag with some extra parameters the plugin needs. -->
+    <!-- Note that although visualise is set to true, it won't actually visualise the depth camera in gazebo. To see the preview, 
+            try swapping "depth" to "camera"-->
+    <gazebo reference="camera_link">
+        <sensor type="camera" name="my_camera">
+            <update_rate>20</update_rate>
+            <visualize>true</visualize>
+            <camera name="cam">
+                <horizontal_fov>1.3962634</horizontal_fov>
+                <image>
+                    <width>640</width>
+                    <height>480</height>
+                    <format>R8B8G8</format>
+                </image>
+                <clip>
+                    <near>0.02</near>
+                    <far>300</far>
+                </clip>
+                <noise>
+                    <type>gaussian</type>
+                    <mean>0.0</mean>
+                    <stddev>0.007</stddev>
+                </noise>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link</frame_name>
+                <min_depth>0.1</min_depth>
+                <max_depth>500</max_depth>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+
+
+</robot>
